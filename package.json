@@ -1,0 +1,33 @@
+{
+  "name": "node-mjml-mustache-nodemailer",
+  "version": "0.1.0",
+  "description": "Send emails using nodemailer, mustache and mjml templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lionls/node-mjml-mustache-nodemailer.git"
+  },
+  "keywords": [
+    "node",
+    "mjml",
+    "mustache",
+    "nodemailer",
+    "mails",
+    "smtp"
+  ],
+  "author": "Angelo Delefortrie <angelo.delefortrie@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lionls/node-mjml-mustache-nodemailer/issues"
+  },
+  "homepage": "https://github.com/lionls/node-mjml-mustache-nodemailer#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "mjml": "^4.6.2",
+    "mustache": "^2.2.1",
+    "nodemailer": "^2.3.2"
+  }
+}
